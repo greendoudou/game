@@ -1,0 +1,356 @@
+.logins{
+	width: 100%;
+	height: 954px;
+	display: none;
+	background-color: #393d42;
+}
+.login-center{
+	float: left;
+	width: 1050px;
+	height: 354.35px;
+	margin: 300px 450px;
+}
+.login-left{
+	float: left;
+}
+.login-right1{
+	width: 350px;
+	height: 100%;
+	float: left;
+	display: block;
+	background-color: #ebebeb;
+}
+.login-r-t{
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+.login-user{
+	width: 302px;
+	height: 220px;
+	margin: 0 auto;
+	position: relative;
+}
+.login-end{
+	width: 200px;
+	height: 50px;
+	float: right;
+}
+.passlogin{
+	font-size: 20px;
+	color: #000;
+	float: left;
+	font-weight: bold;
+	padding-left: 25px;
+	line-height: 80px;
+}
+.ps{
+	width: 113px;
+    height: 26px;
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #ff8b3a;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    background: url(https://static.sonkwo.com/assets/login_phone_txt-9268aacbde4c659e0fd063c608f5b5a130e088f05874547b137735de02ed58e1.png) no-repeat center;
+}
+.ps p{
+	color: #ff8b3a;
+}
+.iphone{
+	float: right;
+}
+.login-name{
+	width: 240px;
+	height: 50px;
+	padding-left: 60px;
+	font-size: 20px;
+	border:1px solid #e0e0e0;
+}
+.user-login{
+	position: absolute;
+	left: 0;
+	top: 4px;
+	width: 50px;
+	height: 51px;
+	background-color: #e1e1e1;
+}
+.icon-user{
+	font-size: 25px;
+	margin: 14px;
+	color: #fff;
+}
+.icon-lock{
+	font-size: 25px;
+	margin: 17px;
+	color: #fff;
+}
+.password{
+	width: 240px;
+	height: 50px;
+	margin:20px 0 10px 0;
+	padding-left: 60px;
+	font-size: 20px;
+	border:1px solid #e0e0e0;
+}
+.user-password{
+	position: absolute;
+	left: 0;
+	top: 76px;
+	width: 50px;
+	height: 51px;
+	background-color: #e1e1e1;
+}
+.submits{
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	background-color: #eb6100;
+	font-variant-position: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border:none;
+}
+.remen{
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.remeber{
+	float: left;
+}
+.remen p{
+	font-size: 14px;
+	float: left;
+	line-height: 15px;
+	padding-left: 5px;
+	color: #959595;
+}
+.forget{
+	float: right;
+}
+.forget li{
+	padding:10px 5px;
+	font-size: 16px;
+	color: #9595aa;
+	float: left;
+	line-height: 40px;
+}
+.login-right2{
+	width: 350px;
+	height: 100%;
+	float: left;
+	display: none;
+	background-color: #ebebeb;
+}
+.windos{
+	float: right;
+}
+.icon-tablet{
+	font-size: 25px;
+	margin: 15px;
+	color: #fff;
+}
+.test{
+	width: 200px;
+	height: 50px;
+	padding-right:100px;
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+	border:1px solid #e0e0e0;
+}
+.yanzheng{
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 80px;
+	border-left: 1px solid #e0e0e0;
+}
+.shuru{
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #959595;
+}
+
+
+
+
+.zuce{
+	width: 100%;
+	height: 1200px;
+	display: none;
+	background-color: #393d42;
+}
+.zuce-center{
+	width: 900px;
+	height: 968px;
+	float: left;
+	margin: 200px 0 0 460px;
+	background-color: #f9f9f9;
+}
+.zucezhanghao{
+	color: #fff;
+	padding:10px 0 10px 20px;
+	background-color: #393d42;
+}
+.zuce-style{
+	width: 100%;
+	height: 62.73px;
+}
+
+.zuce-way{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #c3c4c6;
+}
+.zuce-way:nth-child(1){
+	background-color: #2f5a8f;
+}
+.zuce-way h2{
+	text-align: center;
+	line-height: 62.73px;
+	color: #fff;
+}
+.zuce-all{
+	width: 500px;
+	height: 76%;
+	margin: 70px 0 0 150px;
+}
+.email{
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-bottom: 20px;
+}
+.need{
+	float: right;
+	font-size: 30px;
+	color: #eb6100;
+	line-height: 60px;
+}
+.email-name{
+	float: right;
+	font-size: 16px;
+	line-height: 50px;
+	color: #2b2b2b;
+	margin:0 5px;
+}
+.inputemail{
+	width: 370px;
+	float: right;
+	height: 48px;
+	font-size: 20px;
+	padding-left: 5px;
+	border:1px solid #e1e1e1;
+}
+.inputyanzhengma{
+	width: 140px;
+	float: right;
+	height: 48px;
+	font-size: 20px;
+	padding-left: 5px;
+	border:1px solid #e1e1e1;
+}
+.yanzhengma{
+	float: right;
+	margin-left: 10px;
+}
+.changes{
+	width: 87px;
+	height: 48px;
+	float: right;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	margin-left: 10px;
+	border:1px solid #959595;
+	background-color: #e5e5e5;
+}
+.changes p{
+	color: #959595;
+}
+.youyan p{
+	color: #959595;
+}
+.youyan{
+	width: 218px;
+	height: 48px;
+	float: right;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	margin-left: 10px;
+	border:1px solid #959595;
+	background-color: #e5e5e5;
+}
+.llaws{
+	float: right;
+	width: 370px;
+	height: 24px;
+	margin-bottom: 20px;
+}
+.llaw{
+	font-size: 14px;
+}
+.radio-point{
+	float:left;
+	margin: 8px 10px 0 90px;
+}
+.inputwhy{
+	float: left;
+	line-height: 30px;
+	font-size: 16px;
+	color: #000;
+}
+.emails{
+	width: 100%;
+	height: 60px;
+	float: left;
+	margin: 20px 0;
+}
+.what{
+	width: 100%;
+	float: left;
+}
+.yes{
+	float: left;
+	margin: 18px 0 0 140px;
+}
+.ido{
+	float: left;
+	font-size: 16px;
+	color: #2f5c94;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.had{
+	float: right;
+	font-size: 18px;
+	color: #2b2b2b;
+	line-height: 50px;
+}
+.zuces{
+	width: 370px;
+	height: 50px;
+	color: #fff;
+	float: right;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #2f5c94;
+}
+.useremail{
+	display: block;
+}
+.useriphone{
+	display: none;
+}

@@ -1,0 +1,500 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: #b9c0ef;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+body{
+	font: 12px/1.5 'Microsoft YaHei','Heiti SC','tahoma','arial','Hiragino Sans GB';
+    color: #31374e;
+    width: 100%;
+    background: #202539;
+    display: block;
+    min-height: 800px;
+}
+.clear{
+	clear: both;
+}
+.SK-store-header-container{
+    box-sizing: border-box;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    width: 100%;
+    background: #292e41;
+    padding: 0;
+    z-index: 1000;
+    min-width: 1366px;
+}
+.SK-store-header-content{
+	margin: 0 60px;
+    height: 70px;
+}
+.logo{
+	float: left;
+    height: 40px;
+    width: 106px;
+    margin-top: 15px;
+    background-image: url("https://static.sonkwo.com/assets/logo/logo_61_white-bf83c2fed12ea73064a979dccc77cad070846d82f9bd272cdfaa277cef63d65f.png");
+    background-size: 106px 40px;
+}
+.SK-header-nav{	
+    float: left;
+    margin-left: 160px;
+}
+.item-o{
+	color: #7a80a2;
+    float: left;
+    font-size: 14px;
+    line-height: 70px;
+    position: relative;
+}
+.store{
+	color: #7a80a2;
+}
+.store:hover{
+	color: #b9c0ef;
+}
+.item-t{
+	color: #7a80a2;
+    float: left;
+    font-size: 14px;
+    line-height: 70px;
+    position: relative;
+    margin-left: 40px;
+}
+.icon-jiantou9{
+	display: inline-block;
+    transform: scale(0.5);
+    font-size: 16px;
+}
+.sub-menu{
+	width: 160px;
+    line-height: 40px;
+    background: #292e42;
+    border: 1px solid #3a4056;
+    position: absolute;
+    display: none; 
+    top: 70px;
+    left: -60px;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 10px 0 #1d2133;
+}
+.item-t:hover .sub-menu{
+	display: block;
+}
+.tag{
+	padding: 0 10px;
+}
+.tag:hover{
+	color: #b9c0ef;
+    background: #30354b;
+    cursor: pointer;
+}
+.tag:hover .store-o{
+	color: #b9c0ef;
+}
+.store-o{
+	color: #7a80a2;
+}
+.SK-header-info{
+	float: right;
+    width: 430px;
+    padding: 18px 0;
+    position: relative;
+    margin-right: 20px;
+}
+.links{
+	line-height: 30px;
+	float: right;
+}
+.sign{
+	font-size: 14px;
+    color: #7a80a2;
+}
+.divide{
+	display: inline-block;
+    height: 14px;
+    width: 2px;
+    margin: 0 20px -2px;
+    background: #7a80a2;
+}
+.SK-search{
+	height: 32px;
+    background-color: #ffffff;
+    width: 300px;
+    position: relative;
+    font-size: 14px;
+    border-radius: 3px 3px 3px 3px;
+}
+.SK-search-type{
+	position: absolute;
+    width: 70px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000;
+    color: #716d6d;
+}
+.SK-search-type-title{
+	line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000;
+    color: #716d6d;
+    font-size: 14px;
+}
+.SK-search-type-hide{
+	display: none;
+}
+.SK-search-type:hover .SK-search-type-hide{
+	display: block;
+}
+.store-ts{
+	background-color: #fff;
+	border-top: 1px #959595 solid;
+	border-radius: 3px 3px 3px 3px;
+}
+.SK-search-form{
+	display: inline-block;
+    margin-left: 70px;
+    line-height: 32px;
+    height: 32px;
+    position: relative;
+    font-size: 0px;
+}
+.SK-search-line{
+	float: left;
+    height: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-right: 1px solid #d4d4d4;
+}
+.SK-search-text{
+	line-height: 32px;
+    height: 32px;
+    font-size: 12px;
+    color: #716d6d;
+    border: 0;
+    width: 193px;
+    text-indent: 8px;
+}
+input{
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+    box-shadow: none;
+    text-indent: 0;
+    text-transform: none;
+    background-image: none;
+    border-image-outset: 0;
+    font: 12px/1.5 'Microsoft YaHei','Heiti SC','tahoma','arial','Hiragino Sans GB';
+}
+.SK-search-button{
+	float: right;
+    height: 32px;
+    width: 36px;
+    background: #dcdcdc;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+.icon-sousuo{
+	margin-top: 6px;
+    font-size: 18px;
+    color: #313131;
+    text-rendering: auto;
+}
+.navigation{
+	background: #383d50;
+}
+.navigation-content{
+	min-width: 1200px;
+    margin-left: 60px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #7a80a2;
+}
+.current{
+	color: #b9c0ef;
+}
+.SK-login-background{
+	width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 80px;
+    height: 800px;
+    background-image: url("https://s3.sonkwo.com/FmpOMCeDEj35qaRgxyJXyc71-6aj");
+}
+.SK-container{
+	margin: 0 auto;
+	min-height: 780px;
+}
+.SK-content-sign-in{
+	overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+}
+.SK-logo-block{
+	float: left;
+    height: 800px;
+    width: 650px;
+    overflow: hidden;
+}
+.SK-login{
+	float: right;
+    z-index: 999;
+    margin-top: 150px;
+    width: 340px;
+    padding: 30px;
+    background: #292e42;
+    position: relative;
+    border-radius: 5px;
+}
+.SK-form{
+	background: none;
+    padding: 0;
+}
+.SK-login-tabs{
+	width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #3f4760;
+}
+.SK-login .SK-form .SK-login-tabs .login-tab-button{
+	color: #7a80a2;
+    font-size: 16px;
+    border-bottom: 0;
+    margin-right: 50px;
+    height: 100%;
+    float: left;
+}
+.SK-login .SK-form .SK-login-tabs .login-tab-button.login-tab-active{
+	color: #b9c0ef;
+    border-bottom: 2px solid #b9c0ef;
+    margin-right: 50px;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+}
+.SK-login .SK-form .SK-form-body-wrapper{
+	margin-top: 30px;
+    min-height: 230px;
+}
+.SK-login .SK-form .form-input {
+    width: 340px;
+    height: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.SK-login .SK-form .form-input .input-text {
+    width: 340px;
+    height: 40px;
+    box-sizing: border-box;
+    color: #b9c0ef;
+    line-height: 46px;
+    border: 1px solid #3a4056;
+    border-radius: 2px;
+    text-indent: 20px;
+    background-color: #202539;
+    font-size: 14px;
+}
+.SK-login .SK-form .submit-btn {
+    width: 340px;
+    height: 40px;
+}
+.SK-button-com {
+    /*height: 100%;*/
+    color: #fff;
+    font-size: 14px;
+}
+.orange{
+    background-color: #bfbfbf;
+    color: #fff;
+}
+.SK-button-com button {
+    height: inherit;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+    transition: all ease-in-out .3s;
+}
+.SK-button-com:hover button{
+	color: #fff;
+    background-color: #eb6100;
+}
+.SK-login .other-info {
+    margin-top: 20px;
+    height: 40px;
+    position: relative;
+}
+.input-box{
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #b9c0ef;
+}
+.SK-login .other-info .sign_up_btn {
+    color: #eb6100;
+    font-size: 14px;
+    padding-left: 10px;
+    border-left: 1px solid #eb6100;
+    margin-left: 10px;
+}
+.SK-login .right {
+    display: inline-block;
+    float: right;
+}
+.SK-login .other-info .change_pwd_btn {
+    color: #eb6100;
+    font-size: 14px;
+}
+.SK-login .right {
+    display: inline-block;
+    float: right;
+}
+.SK-login .other-info .input-box .label {
+    color: #7a80a2;
+}
+.input-box .label {
+    vertical-align: middle;
+    display: inline-block;
+}
+.input-box .input {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/*尾部*/
+.end{
+	float: left;
+	width: 100%;
+	height: 219px;
+	background-color: #33394d;
+}
+.end-center{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.end-person{
+	float: left;
+	margin:50px 0 25px 0;
+}
+.end-person li{
+	float: left;
+}
+
+.end-person a{
+	margin: 0 5px;
+	font-size: 14px;
+}
+.belong{
+	margin: 5px 5px;
+	font-size: 12px;
+}
+.end-pic{
+	float: right;
+	width: 370px;
+	height: 139px;
+}
+.hao{
+	float: left;
+	margin: 5px 0;
+}
+.hao li{
+	font-size: 12px;
+	float: left;
+	margin:0 5px;
+}
+.warn li{
+	font-size: 12px;
+	float: left;
+	margin:0 1px;
+}
+.end-left{
+	float: left;
+	width: 662px;
+	height: 139px;
+}
+.end-icon{
+	width: 100%;
+	height: 36px;
+	margin-top: 80px;
+}
+.end-icon li{
+	float: left;
+	margin-left: 10px;
+}
+
+.icon1{
+	width: 36px;
+	height: 36px;
+	background-image: url('https://static.sonkwo.com/assets/yd-081cb34293358339b8b1134883f8d0ee5ca1b99779852cb4968cc327397a2654.png');
+	background-position:  0 0;
+}
+.icon1:hover{
+	background-position:  -71px 0;
+}
+.icon2{
+	width: 36px;
+	height: 36px;
+	background-image: url('https://static.sonkwo.com/assets/yd-081cb34293358339b8b1134883f8d0ee5ca1b99779852cb4968cc327397a2654.png');
+	background-position:  0 -46px;
+}
+.icon2:hover{
+	background-position:   -71px -46px;
+}
+.icon3{
+	width: 36px;
+	height: 36px;
+	background-image: url('https://static.sonkwo.com/assets/yd-081cb34293358339b8b1134883f8d0ee5ca1b99779852cb4968cc327397a2654.png');
+	background-position:   0 -92px;
+}
+.icon3:hover{
+	background-position:  -71px -92px;
+}
+.icon4{
+	width: 36px;
+	height: 36px;
+	background-image: url('https://static.sonkwo.com/assets/yd-081cb34293358339b8b1134883f8d0ee5ca1b99779852cb4968cc327397a2654.png');
+	background-position:  0 -138px;
+}
+.icon4:hover{
+	background-position:  -71px -138px;
+}
+.icon5{
+	width: 36px;
+	height: 36px;
+	background-image: url('https://static.sonkwo.com/assets/yd-081cb34293358339b8b1134883f8d0ee5ca1b99779852cb4968cc327397a2654.png');
+	background-position:  0 -184px;
+}
+.icon5:hover{
+	background-position:  -71px -184px;
+}
+.icon6{
+	width: 36px;
+	height: 36px;
+	background-image: url('https://static.sonkwo.com/assets/yd-081cb34293358339b8b1134883f8d0ee5ca1b99779852cb4968cc327397a2654.png');
+	background-position:  0 -230px;
+}
+.icon6:hover{
+	background-position: -71px -230px;
+}
+.zhoubians{
+	padding:5px;
+}
